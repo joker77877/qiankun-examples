@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "noImplicitAny": true,
+      "jsx": "preserve",
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "lib": [
+          "esnext",
+          "dom"
+      ],
+      "types": [
+          "node"
+      ],
+      "allowJs": true,
+      "baseUrl": ".",
+      "paths": {
+          "@/*": [
+              "src/*"
+          ]
+      }
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true,
+    "useTranspileModule": true,
+    "doTypeCheck": true,
+    "forkChecker": true
+  },
+  // "include": [
+  //     "src/**/*.ts",
+  //     "src/**/*.d.ts",
+  //     "src/**/*.tsx",
+  //     "src/**/*.vue",
+  //     ".eslintrc.js",
+  //     "*.ts",
+  // ],
+  "exclude": [
+      "node_modules",
+  ]
+}
